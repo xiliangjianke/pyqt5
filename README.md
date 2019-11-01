@@ -13,3 +13,5 @@ pyhon+pyqt5+access实现数据管理
 
 关于注意事项：此程序利用pyinstall可打包成exe，大概30M左右，对打包环境有要求：
 window环境：32bit或64bit；Micro office环境：32bit或64bit。运行环境要与打包环境一致。
+
+程序中引用的附件涉及公司文件不方便上传，主要是一些表格导入导出的模板。
