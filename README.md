@@ -13,5 +13,14 @@ pyhon+pyqt5+access实现数据管理
 
 关于注意事项：此程序利用pyinstall可打包成exe，大概30M左右，对打包环境有要求：
 window环境：32bit或64bit；Micro office环境：32bit或64bit。运行环境要与打包环境一致。
+上传代码的运行环境为：64bit windows+ 64bit office(**64bit ODBC数据源**)，首先检查ODBC中是否包含64bit accesss数据源，不包含需要创建，不然无法运行。
+如果为32bit office可参考一下代码进行替换：
+
+64bit
+Microsoft Access Driver (*.mdb, *.accdb)
+
+32bit
+Microsoft Access Driver (*.mdb)
+
 
 程序中引用的附件涉及公司文件不方便上传，主要是一些表格导入导出的模板。更详细的介绍可参考上传的PPT。
